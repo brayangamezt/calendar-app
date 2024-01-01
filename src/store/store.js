@@ -1,9 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { uiSlice, calendarSlice } from './';
+import { uiSlice, calendarSlice, authSlice } from './';
 
 // Funcion principal donde se guardan los valores de los reducers
 export const store = configureStore({
     reducer:{
+        auth: authSlice.reducer,
         calendar: calendarSlice.reducer,
         ui:uiSlice.reducer
     },

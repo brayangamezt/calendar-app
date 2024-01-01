@@ -14,12 +14,10 @@ export const RedirectionAuth = () => {
             path === '/login' ? 
             <p>
                 <Link to='/register' >Dont you have account ? </Link>
-                <Link to='/register' >Forgot password ? </Link>
             </p>
             :
             <p>
                 <Link to='/login' > Go to login ? </Link>
-                <Link to='/login' > Forgot password ? </Link>
             </p>
         }
     </>

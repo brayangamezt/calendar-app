@@ -6,19 +6,8 @@ import { AccesRoute } from './AccesRoute';
 
 export const AppRoutes = () => {
 
-  // const routes = createBrowserRouter([
-  //   createRoutesFromElements(
-  //     <>
-  //     <Route path="/login" element={<LoginPage/>} />
-  //     <Route path="/register" element={<Register/>} />
-  //     <Route path="/" element={<AccesRoute/>}>
-  //       <Route path="calendar" element={ <CalendarPage/> } />
-  //       <Route path="dashboard" element={ <DashboardPage/> } />
-  //     </Route>
-  //     </>
-  //   )
-  // ]);
-
+  //LAS PALABRAS DE ACCESO ESTAN EN EL DOCUMENTO AccessRoute
+  
   const routes = createBrowserRouter([
     {
       path:'login',
