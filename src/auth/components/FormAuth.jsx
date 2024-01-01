@@ -24,7 +24,6 @@ export const FormAuth = () => {
 
   const onAuthSubmit = (event) =>{
     event.preventDefault();
-    console.log({ registerName, registerEmail, registerPassword, registerPassword2});
 
     if( registerPassword !== registerPassword2 ){
       Swal.fire( 'Error en registro', 'Contrasenas no son iguales', 'error' );
